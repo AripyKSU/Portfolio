@@ -17,8 +17,8 @@
 로그라이크 전략 게임
 
 - ScriptableObject-based Modular Magic System
-- Target / Condition / Effect Architecture
-- Status System
+- Target / Condition / Effect Runtime Flow
+- Composable Status Logic & Safe Lifecycle Management
 
 ### [MixterPiece](./MixterPiece)
 Grid 기반 퍼즐 게임
