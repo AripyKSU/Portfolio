@@ -10,8 +10,8 @@
 2인 협동 온라인 공포 게임
 
 - Procedural Map Generation
-- Monster State AI
-- Photon Fusion 2 Multiplayer
+- State-based Monster AI
+- State Authority-based AI Synchronization
 
 ### [MagRog](./MagRog)
 로그라이크 전략 게임
@@ -33,8 +33,7 @@ Grid 기반 퍼즐 게임
 Portfolio/
 ├─ Nostalgia/
 │  ├─ ProceduralMap/
-│  ├─ MonsterAI/
-│  └─ Multiplayer/
+│  └─ MonsterAI/
 ├─ MagRog/
 │  ├─ MagicSystem/
 │  └─ StatusSystem/
@@ -47,4 +46,5 @@ Portfolio/
 
 - 각 폴더에는 실제 프로젝트에서 사용한 코드 중 핵심 구현을 선별하여 정리합니다.
 - 일부 코드는 프로젝트 종속 클래스, 에셋, 설정을 포함하지 않아 단독으로 실행되지 않을 수 있습니다.
+- 가독성을 위해 비핵심 코드는 생략하고, 필요한 경우 XML 주석과 핵심 동작 주석을 보강했습니다.
 - 각 프로젝트의 설계 의도와 코드 구성은 프로젝트별 `README.md`에서 설명합니다.
