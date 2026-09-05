@@ -1,5 +1,9 @@
 # Nostalgia
 
+## 🎥 Project Video
+
+[▶ Steam 트레일러 보기](https://video.fastly.steamstatic.com/store_trailers/3693270/1883588382/7865c6941393f215fbba2592cb020efd15222a06/1751180406/hls_264_master.m3u8?t=1751182030) · [Steam Store](https://store.steampowered.com/app/3693270/Nostalgia/)
+
 **Nostalgia**는 서로 다른 역할을 가진 두 플레이어가 협력해 스테이지를 진행하는 온라인 협동 공포 게임입니다.
 
 이 폴더에는 프로젝트에서 직접 설계하고 구현한 시스템 중, 게임 프로그래밍 역량을 보여줄 수 있는 핵심 코드 샘플을 정리합니다.
