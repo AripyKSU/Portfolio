@@ -1,5 +1,11 @@
 # MagRog
 
+## 🎥 Gameplay Video
+
+[![MagRog Gameplay Video](https://img.youtube.com/vi/ESk9JNvt00w/hqdefault.jpg)](https://youtu.be/ESk9JNvt00w)
+
+[▶ YouTube에서 보기](https://youtu.be/ESk9JNvt00w)
+
 **MagRog**는 마법 덱을 구성하고 다양한 조건과 효과를 조합해 전투를 진행하는 로그라이크 전략 게임입니다.
 
 이 폴더에는 새로운 마법과 상태이상을 데이터 조합과 런타임 객체로 분리해 확장할 수 있도록 설계한 핵심 게임플레이 시스템 코드를 정리합니다.
