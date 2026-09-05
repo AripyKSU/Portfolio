@@ -1,45 +1,50 @@
-# 김승욱_Portfolio
+# Portfolio
 
-안녕하세요, 게임이 주는 즐거움을 더 많은 사람들에게 전하고 싶어 노력하는 개발자 **김승욱**입니다.  
-본 레포지토리는 제가 참여한 주요 프로젝트와 개발한 기능들을 소개하고자 제작되었습니다.
+게임 프로그래머 **김승욱**이 프로젝트에서 직접 설계하고 구현한 핵심 코드 샘플을 정리한 저장소입니다.
 
-## 🎮 프로젝트 소개
+전체 Unity 프로젝트를 그대로 공개하기보다, 게임플레이 시스템 설계와 문제 해결 과정을 확인할 수 있는 코드 중심으로 구성합니다.
 
-### 1. [Nostalgia](./Nostalgia)
-- **기간:** 2024.02 ~ (2025 여름 스팀 출시 예정)
-- **장르:** 온라인 협동 공포 게임
-- **설명:** 능력이 다른 두 명의 플레이어가 협력하여 귀신을 피해 일기장을 수집하고 스테이지를 클리어하는 게임입니다.
-- **주요 구현:** 
-  - 절차적 맵 생성 알고리즘
-  - Photon Fusion2 기반 매칭 시스템
-  - 인터랙션 오브젝트 시스템
-  - JSON 파일을 이용한 세이브 시스템
-- **사용 기술:** Unity, Photon Fusion2, NavMesh
+## Projects
 
----
+### [Nostalgia](./Nostalgia)
+2인 협동 온라인 공포 게임
 
-### 2. [LLM과 VR을 활용한 실감형 언어 학습 플랫폼](./LLM과%20VR을%20활용한%20실감형%20언어%20학습%20플랫폼)
-- **기간:** 2024.04 ~ 2024.06 (졸업작품)
-- **설명:** VR 환경에서 AI NPC와 자연스러운 영어 대화를 하며, 실시간 피드백을 통해 학습 효과를 제공하는 플랫폼입니다.
-- **주요 구현:** 
-  - GPT 모델 파인튜닝 및 OpenAI API 연동
-  - 연결된 모델을 이용한 NPC와의 턴제 대화 시스템
-- **사용 기술:** Unity, OpenAI API, OpenXR
+- Procedural Map Generation
+- Monster State AI
+- Photon Fusion 2 Multiplayer
 
----
+### [MagRog](./MagRog)
+로그라이크 전략 게임
 
-### 3. [룬 터치다운](./룬%20터치다운)
-- **기간:** 2022.09 ~ 2022.12 (메이플스토리 월드 슈퍼 해커톤)
-- **설명:** 3:3 팀 대전 미식축구 스타일 게임으로, 스킬을 활용해 상대를 방해하며 득점을 노리는 캐주얼 PvP 게임입니다.
-- **주요 구현:** 
-  - 게임 주요 기능 (타이머, 득점) 및 스킬 시스템
-  - 바닥 포션 랜덤 생성 알고리즘
-- **사용 기술:** MapleStory Worlds, Lua Script
+- ScriptableObject-based Modular Magic System
+- Target / Condition / Effect Architecture
+- Status System
 
----
+### [MixterPiece](./MixterPiece)
+Grid 기반 퍼즐 게임
 
-## 📂 구성
+- BFS-based Paint Spread
+- Wave-based Spread Presentation
+- Command-based Undo / Clear
 
-각 프로젝트 폴더에는 다음과 같은 내용이 포함되어 있습니다:
-- `README.md`: 프로젝트 개요 및 구현 내용 설명
-- `scripts/`: 직접 개발한 핵심 코드 스니펫
+## Repository Structure
+
+```text
+Portfolio/
+├─ Nostalgia/
+│  ├─ ProceduralMap/
+│  ├─ MonsterAI/
+│  └─ Multiplayer/
+├─ MagRog/
+│  ├─ MagicSystem/
+│  └─ StatusSystem/
+└─ MixterPiece/
+   ├─ PaintSpread/
+   └─ CommandSystem/
+```
+
+## Note
+
+- 각 폴더에는 실제 프로젝트에서 사용한 코드 중 핵심 구현을 선별하여 정리합니다.
+- 일부 코드는 프로젝트 종속 클래스, 에셋, 설정을 포함하지 않아 단독으로 실행되지 않을 수 있습니다.
+- 각 프로젝트의 설계 의도와 코드 구성은 프로젝트별 `README.md`에서 설명합니다.
