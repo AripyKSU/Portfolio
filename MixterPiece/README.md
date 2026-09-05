@@ -1,5 +1,11 @@
 # MixterPiece
 
+## 🎥 Gameplay Video
+
+[![MixterPiece Gameplay Video](https://img.youtube.com/vi/CswE8Itpmho/hqdefault.jpg)](https://youtu.be/CswE8Itpmho)
+
+[▶ YouTube에서 보기](https://youtu.be/CswE8Itpmho) · [WebGL 플레이](https://chaaaron000.github.io/nan2026/)
+
 **MixterPiece**는 Grid 위에 물감을 배치하고 색의 확산과 혼합을 이용해 문제를 해결하는 퍼즐 게임입니다.
 
 이 폴더에는 물감 확산 규칙과 Undo / Clear를 구현하면서 사용한 핵심 알고리즘 및 상태 관리 코드를 정리합니다.
